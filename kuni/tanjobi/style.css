@@ -1,0 +1,154 @@
+﻿@charset "utf-8";
+html{
+ font-size:100%;
+ width : 100%;
+}
+site-box { Width : 900px ; }
+body {
+
+background:#000080 no-repeat center center;
+background-size:cover;
+background-attachment:fixed;
+
+
+  width: 95%;
+  margin: 0 auto;
+  max-width: 600px;
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+//*
+header {
+background-color : #FFFFFF;
+border-radius: 0 0 6px 6px;
+
+}
+.page-header {
+ background-color : #FFFFFF;
+ display: flex;
+ justify-content: space-between;
+*//
+
+}
+.main-nav {
+ display: flex;
+ font-size: 1.25rem;
+ margin-top:10px;
+ list-style: none;
+}
+.main-nav li{
+ margin-left: 10px;
+ margin-right: 10px
+ margin-top:10px;
+}
+.main-nav a {
+ color: #000080;
+
+}
+#wrapper {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+ float: right
+}
+
+.side {
+  width: 35%;
+}
+
+.right-column {
+  width: 65%;
+ padding: 30px;
+}
+@media screen and ( max-width:479px )
+{
+.left-column {
+display:none}
+}
+
+@media screen and ( max-width:479px )
+{
+	#wrapper
+	{
+		width: 420px;
+float: none
+}
+}
+
+
+/*
+.wrapper {
+ max-width: 1100px;
+ margin: 0 auto;
+
+}
+*/
+
+a {
+ text-decoration: none;
+ color: gray;
+}
+
+table {
+ background-color: #FFFFFF;
+ width: 100%;
+ padding: 8px 8px 8px 8px;
+ border-collapse: separate;
+border-radius: 6px;
+
+}
+.table2
+{
+ background-color: #000000;
+ width: 100%;
+}
+h1 {
+
+ color: #FFFFFF;
+}
+p {
+ font-size: 14px;
+}
+.white {
+ color: #FFFFFF;
+}
+.denko {
+ color: #ff1493;
+}
+.kao {
+text-align: center;
+   max-width: 100px; /* 最大幅 */
+   min-width: 100px; /* 最小幅 */ 
+ margin : auto;
+}
+.kao img { width: 100%; }
+
+.gazou {
+text-align: center;
+   max-width: 400px; /* 最大幅 */
+   min-width: 300px; /* 最小幅 */ 
+ margin : 0 auto;
+}
+.gazou img { width: 50%; }
+
+.gazou2 {
+text-align: center;
+   max-width: 600px; /* 最大幅 */
+   min-width: 300px; /* 最小幅 */ 
+ margin : 0 auto;
+}
+.gazou2 img { width: 100%; }
+
+.gazou3 {
+text-align: center;
+   max-width: 400px; /* 最大幅 */
+   min-width: 300px; /* 最小幅 */ 
+ margin : 0 auto;
+}
+.gazou3 img { width: 100%; }
